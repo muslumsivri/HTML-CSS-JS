@@ -1,0 +1,337 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Header Part*/
+#header{
+    background-image: url(./assets/images/header_background.jpg);
+    width: 100%;
+    height: 20rem;
+    position: relative;
+    
+}
+
+.flags #eng{
+    height: 70px;
+    width: 70px;
+    padding: 2px;
+    margin-right:0 ;
+        
+}
+
+.flags #tr{
+    width: 70px;
+    height: 70px;
+    padding: 2px;
+    margin-left: 0;
+    
+}
+.flags #emptyimg{
+    
+    border-left: solid green 3.70px;
+    height: 70px;
+    padding: 0;
+}
+
+.flags{
+    position: absolute;
+    height:5rem;
+    width: 10rem;
+    top:10%;
+    left: 1%;
+}
+
+#header .header-content{
+
+    position: absolute;
+    align-items: center;
+}
+
+#header #rightsideimg{
+    position: absolute;
+    width: 28%;
+    right : 2%;
+    top:10%;
+    height: 70%;
+}
+
+#header .header-content
+{
+    text-align: center;  
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#header .header-content h1{
+    font-family:'Courier New';
+    font-size: 70px;
+    color:white;
+    margin-bottom: 0;
+    
+}
+
+#header .header-content p{
+    font-family: Tahoma;
+    font-size: 30px;
+    color: orange;
+
+}
+#header #myimg{
+    position: absolute;
+    border-radius: 50%;
+    height: 31%;
+    width: 7%;
+    left: 50%;
+    top: 85%;
+    transform: translate(-50%,0);
+    border:solid 2px blue;
+    
+}
+
+
+
+
+
+
+
+
+/*Main Part*/
+
+
+#main #first-main-content{
+    float: left;
+    background-color:#f1f1f1;
+    width: 16%;
+    border:solid 3px green ;
+    margin-left: 3px;
+    border-radius: 10px;
+    text-align: left;
+    position: fixed;
+    
+    
+}
+
+#main #second-main-content{
+
+    
+    height: 100%;
+    margin-left: 17%;
+    margin-right: 24%;
+    border-style: dashed;
+    border-color: blue;
+    padding:50px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+
+#main #third-main-content{
+    float: right;
+    width: 23%;
+    height: 100%;
+    
+
+}
+
+
+/*First Main Content*/
+ #first-main-content #navigation-menu img{
+
+    width: 8%;
+    height:8%;
+ }
+
+ #first-main-content #navigation-menu p{
+    padding-left: 10px;
+ }
+
+ #first-main-content #navigation-menu a {
+    text-decoration: none;
+    color: black;
+ }
+
+ #navigation-menu span:hover{
+    background-color: gray;
+ }
+
+
+
+
+/*Second Main Content*/
+#main #second-main-content h1{
+    font-family: Arial;
+    font-size: 25px;
+    margin-bottom:35px;
+}
+
+.info-item{
+    padding:10px 3px;
+    margin: 10px;
+
+}
+
+#main #second-main-content .title{
+    font-size: 20px;
+    font-family: Arial;
+}
+
+#main #second-main-content .content{
+    font-size: 18px;
+    font-family: Arial;
+    text-align:left;
+    align-items: center;
+    padding: 10px;
+}
+
+#aboutme{
+
+    background-color:rgba(236, 176, 176);
+    
+}
+
+#education{
+    background-color:rgba(182, 237, 174) ;
+}
+#education ol{
+    margin-left: 45px;
+}
+
+#experience{
+    background-color:rgba(224, 228, 87) ;
+}
+#experience ul{
+    margin-left: 45px;
+}
+
+#skills{
+
+    background-color:rgba(167, 146, 202) ;
+}
+
+#skills img{
+    width: 5rem;
+    height: 5rem;
+    margin: 8px;
+}
+
+#hobbies{
+    background-color:rgba(184, 131, 129) ;
+}
+
+#hobbies ul{
+    margin-left: 45px;
+}
+
+
+/*Third main content */
+
+#info-menu{
+
+    border: solid 3px green;
+    border-radius: 10px;
+    margin-right: 1%;
+    padding: 2px;
+
+}
+
+#info-menu hr{
+    
+    border-top: solid 2px gray;
+    
+    
+}
+
+#info1{
+    background-color:rgb(0, 71, 150);
+    border-radius: 15px;
+    margin-top: -4%;
+    padding-top: 0;
+    
+    
+}
+
+
+#info1 h1{
+    font-family: Garamond;
+    font-size: 16pt;
+    text-align: center;
+    border-bottom: solid 3px red;
+    padding: 28px 5px 5px 5px;
+    color: white;
+    
+}
+
+#info1 table{
+    font-family: Garamond;
+    font-size: 14pt;
+    color: white;
+}
+
+#info1 table td{
+    padding: 10px;
+}
+
+#info1 table a{
+    text-decoration: none;
+    color:white;
+}
+
+
+#info2{
+    background-color: rgb(173, 216, 230);
+    border-radius: 15px;
+    margin-top: -2%;
+    
+}
+
+#info2 h1{
+
+    font-family: Verdana;
+    font-size: 14pt;
+    text-align: center;
+    border-bottom: solid 3px red;
+    padding: 28px 5px 5px 5px;
+}
+
+
+#info2 table{
+    font-family: Verdana;
+    font-size: 12pt;
+}
+
+#info2 table td{
+    padding: 5px 10px;
+}
+
+
+
+
+
+#info2 button{
+    
+    text-align: center;
+    transform: translate(250%,0);
+    margin-bottom: 5px;
+    
+
+}
+
+/*FOOTER PART*/
+footer{
+    border-radius: 40px;
+    background-color: black;
+    text-align: center;
+    padding: 1px;
+    margin-top: 5px;
+    
+}
+footer p{
+    font-family: Copperplate;
+    font-size: 20px;
+    color:red;
+    margin: 5px;
+
+}
